@@ -1,0 +1,47 @@
+## Archivos generados por .NET Build
+bin/
+obj/
+
+## Archivos de caché de Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userprefs
+*.userosscache
+
+## Archivos de cobertura de código
+*.coverage
+*.coveragexml
+.msCoverageSourceRootsMapping*
+CoverletSourceRootsMapping*
+
+## Archivos de publicación
+publish/
+out/
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Logs y diagnósticos
+*.log
+*.trx
+TestResults/
+
+## Variables de entorno / secretos
+.env
+.env.local
+*.pfx
+*.key
+appsettings.Development.json
+
+## Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
