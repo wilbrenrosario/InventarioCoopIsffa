@@ -1,0 +1,11 @@
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\obj\Debug\net10.0\Inventario.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\obj\Debug\net10.0\Inventario.Domain.AssemblyInfoInputs.cache
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\obj\Debug\net10.0\Inventario.Domain.AssemblyInfo.cs
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\obj\Debug\net10.0\Inventario.Domain.csproj.CoreCompileInputs.cache
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\bin\Debug\net10.0\Inventario.Domain.deps.json
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\bin\Debug\net10.0\Inventario.Domain.dll
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\bin\Debug\net10.0\Inventario.Domain.pdb
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\obj\Debug\net10.0\Inventario.Domain.dll
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\obj\Debug\net10.0\refint\Inventario.Domain.dll
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\obj\Debug\net10.0\Inventario.Domain.pdb
+C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Domain\obj\Debug\net10.0\ref\Inventario.Domain.dll

@@ -1,0 +1,38 @@
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="hero-section text-center mt-4">
+    <h1 class="display-4 fw-bold text-primary mb-3">Gestión de Inventario</h1>
+    <p class="lead text-secondary mb-5">Sistema centralizado para el control de stock, movimientos y reportes valorizados.</p>
+    
+    <div class="row justify-content-center g-4 mt-2">
+        <div class="col-md-4">
+            <a href="@Url.Action("Index", "Productos")" class="text-decoration-none">
+                <div class="card h-100 p-4 text-center">
+                    <i class="bi bi-box2 text-primary display-4 mb-3"></i>
+                    <h4 class="text-dark fw-bold">Catálogo de Productos</h4>
+                    <p class="text-muted mb-0">Gestiona los productos disponibles en el inventario.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="@Url.Action("Registrar", "Movimientos")" class="text-decoration-none">
+                <div class="card h-100 p-4 text-center">
+                    <i class="bi bi-arrow-left-right text-success display-4 mb-3"></i>
+                    <h4 class="text-dark fw-bold">Movimientos de Stock</h4>
+                    <p class="text-muted mb-0">Registra entradas y salidas de inventario de manera segura.</p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="@Url.Action("Index", "Reportes")" class="text-decoration-none">
+                <div class="card h-100 p-4 text-center">
+                    <i class="bi bi-pie-chart text-info display-4 mb-3"></i>
+                    <h4 class="text-dark fw-bold">Reportes de Valorización</h4>
+                    <p class="text-muted mb-0">Analiza el valor de tu inventario segmentado por categoría.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

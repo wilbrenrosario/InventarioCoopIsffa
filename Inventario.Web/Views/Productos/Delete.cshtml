@@ -1,0 +1,62 @@
+@model Inventario.Application.DTOs.ProductoDto
+@{
+    ViewData["Title"] = "Eliminar Producto";
+}
+
+<div class="mb-4">
+    <div class="d-flex align-items-center gap-2 mb-1">
+        <a asp-action="Index" class="btn btn-sm btn-outline-secondary rounded-circle">
+            <i class="bi bi-arrow-left"></i>
+        </a>
+        <h1 class="fw-bold mb-0 text-danger">Eliminar Producto</h1>
+    </div>
+    <p class="text-muted ms-5">Confirmar la eliminación del producto seleccionado</p>
+</div>
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card border-danger shadow-sm">
+            <div class="card-body p-4">
+                <div class="alert alert-danger bg-danger bg-opacity-10 border-0 d-flex align-items-center mb-4">
+                    <i class="bi bi-exclamation-triangle-fill text-danger fs-3 me-3"></i>
+                    <div>
+                        <h5 class="text-danger mb-1 fw-bold">¿Estás seguro?</h5>
+                        <p class="mb-0 text-danger small">Esta acción marcará el producto como inactivo en el sistema, pero no borrará el historial de movimientos.</p>
+                    </div>
+                </div>
+
+                <div class="mb-4">
+                    <h5 class="fw-bold">@Model.Nombre</h5>
+                    <div class="d-flex flex-wrap gap-3 mt-3 text-muted">
+                        <div>
+                            <span class="d-block small text-uppercase">SKU</span>
+                            <span class="fw-medium text-dark"><code class="text-primary">@Model.Sku</code></span>
+                        </div>
+                        <div class="border-start ps-3">
+                            <span class="d-block small text-uppercase">Categoría</span>
+                            <span class="badge bg-primary bg-opacity-10 text-primary">@Model.CategoriaNombre</span>
+                        </div>
+                        <div class="border-start ps-3">
+                            <span class="d-block small text-uppercase">Precio</span>
+                            <span class="fw-medium text-dark">₡@Model.Precio.ToString("N2")</span>
+                        </div>
+                        <div class="border-start ps-3">
+                            <span class="d-block small text-uppercase">Stock Actual</span>
+                            <span class="fw-medium text-dark">@Model.StockActual unid.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form asp-action="Delete">
+                    <input type="hidden" asp-for="Id" />
+                    <div class="d-flex gap-2">
+                        <a asp-action="Index" class="btn btn-light flex-grow-1">Cancelar</a>
+                        <button type="submit" class="btn btn-danger flex-grow-1">
+                            <i class="bi bi-trash me-1"></i> Eliminar Producto
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

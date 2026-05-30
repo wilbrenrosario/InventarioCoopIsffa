@@ -1,0 +1,45 @@
+2026-05-30 16:39:46.426 -04:00 [WRN] Entity 'Producto' has a global query filter defined and is the required end of a relationship with the entity 'MovimientoStock'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-30 16:39:48.744 -04:00 [INF] Now listening on: https://localhost:7105
+2026-05-30 16:39:48.747 -04:00 [INF] Now listening on: http://localhost:5165
+2026-05-30 16:39:48.750 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-30 16:39:48.752 -04:00 [INF] Hosting environment: Development
+2026-05-30 16:39:48.754 -04:00 [INF] Content root path: C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Web
+2026-05-30 16:40:22.933 -04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-30 16:42:19.931 -04:00 [INF] Application is shutting down...
+2026-05-30 16:43:58.739 -04:00 [WRN] Entity 'Producto' has a global query filter defined and is the required end of a relationship with the entity 'MovimientoStock'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-30 16:43:59.453 -04:00 [INF] Now listening on: https://localhost:7105
+2026-05-30 16:43:59.456 -04:00 [INF] Now listening on: http://localhost:5165
+2026-05-30 16:43:59.459 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-30 16:43:59.460 -04:00 [INF] Hosting environment: Development
+2026-05-30 16:43:59.462 -04:00 [INF] Content root path: C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Web
+2026-05-30 16:44:01.537 -04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-30 16:47:41.093 -04:00 [INF] Application is shutting down...
+2026-05-30 16:51:13.042 -04:00 [WRN] Entity 'Producto' has a global query filter defined and is the required end of a relationship with the entity 'MovimientoStock'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-30 16:51:13.825 -04:00 [INF] Now listening on: http://localhost:5165
+2026-05-30 16:51:13.829 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-30 16:51:13.830 -04:00 [INF] Hosting environment: Development
+2026-05-30 16:51:13.831 -04:00 [INF] Content root path: C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Web
+2026-05-30 16:51:27.629 -04:00 [WRN] Failed to determine the https port for redirect.
+2026-05-30 16:51:33.614 -04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-30 16:51:35.576 -04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-30 16:52:42.962 -04:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2026-05-30 17:16:43.882 -04:00 [INF] Application is shutting down...
+2026-05-30 17:19:12.961 -04:00 [WRN] Entity 'Producto' has a global query filter defined and is the required end of a relationship with the entity 'MovimientoStock'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-30 17:19:16.009 -04:00 [INF] Now listening on: http://localhost:5165
+2026-05-30 17:19:16.014 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-30 17:19:16.017 -04:00 [INF] Hosting environment: Development
+2026-05-30 17:19:16.019 -04:00 [INF] Content root path: C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Web
+2026-05-30 17:19:30.928 -04:00 [WRN] Failed to determine the https port for redirect.
+2026-05-30 17:19:33.215 -04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-30 17:22:49.730 -04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-30 17:23:45.349 -04:00 [WRN] Savepoints are disabled because Multiple Active Result Sets (MARS) is enabled. If 'SaveChanges' fails, then the transaction cannot be automatically rolled back to a known clean state. Instead, the transaction should be rolled back by the application before retrying 'SaveChanges'. See https://go.microsoft.com/fwlink/?linkid=2149338 for more information and examples. To identify the code which triggers this warning, call 'ConfigureWarnings(w => w.Throw(SqlServerEventId.SavepointsDisabledBecauseOfMARS))'.
+2026-05-30 17:43:42.150 -04:00 [INF] Application is shutting down...
+2026-05-30 17:54:08.784 -04:00 [WRN] Entity 'Producto' has a global query filter defined and is the required end of a relationship with the entity 'MovimientoStock'. This may lead to unexpected results when the required entity is filtered out. Either configure the navigation as optional, or define matching query filters for both entities in the navigation. See https://go.microsoft.com/fwlink/?linkid=2131316 for more information.
+2026-05-30 17:54:11.474 -04:00 [INF] Now listening on: http://localhost:5165
+2026-05-30 17:54:11.480 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-30 17:54:11.482 -04:00 [INF] Hosting environment: Development
+2026-05-30 17:54:11.484 -04:00 [INF] Content root path: C:\Users\willt\Desktop\InventarioCooperativa\Inventario.Web
+2026-05-30 17:54:39.472 -04:00 [WRN] Failed to determine the https port for redirect.
+2026-05-30 17:54:39.609 -04:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-30 18:10:46.836 -04:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-05-30 18:29:57.387 -04:00 [INF] Application is shutting down...
