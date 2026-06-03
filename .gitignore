@@ -1,6 +1,11 @@
 ## Archivos generados por .NET Build
 bin/
 obj/
+Inventario.Infrastructure/obj/
+Inventario.Application/obj/
+Inventario.Domain/obj/
+Inventario.Web/obj/
+
 
 ## Archivos de caché de Visual Studio / Rider
 .vs/
